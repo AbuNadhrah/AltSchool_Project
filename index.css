@@ -1,0 +1,20 @@
+/* Hero section  */
+.hero {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #FFFFFF;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+}
+
+
+.flex-item{
+    flex: 1;
+}
