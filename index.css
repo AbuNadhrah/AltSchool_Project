@@ -2,16 +2,17 @@
 .hero {
     position: relative;
     width: 1440px;
-    height: 1024px;
+    /* height: 1024px; */
 
     background: #FFFFFF;
 
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: baseline;
     padding: 0px;
     gap: 32px;
-
+    flex: 1;
+    
 }
 
 
@@ -21,7 +22,8 @@
     
     /* order: 2; */
     gap: 1px;
-    flex: 1 0 25%;
+    flex: 0 1 25%;
+    /* flex: 4; */
 }
 
 .flex-item{
@@ -29,6 +31,27 @@
     flex: 1 0 25%;
 }
 
-.button{
-    flex: 1 0 25%;
+.blueb{
+    /* flex: 1 0 25%; */
+    /* Button */
+
+    width: 142px;
+    height: 44px;
+
+    /* Primary/300 - base */
+    background: #0065FE;
+    border-radius: 100px;
+
+
+    font-family: 'Gilroy-SemiBold', 'Roboto', 'Questrial';
+    font-size: 16px;
+    line-height: 12px;
+    /* identical to box height, or 75% */
+
+    /* Neutral/White */
+    color: #FFFFFF;
+
+
+   
+
 }
