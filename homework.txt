@@ -1,0 +1,30 @@
++ is the addition operator. It is used to add two operands. For example, a + b returns the sum of a and b.
+
+•  - is the subtraction operator. It is used to subtract the second operand from the first. For example, a - b returns the difference of a and b.
+
+•  * is the multiplication operator. It is used to multiply two operands. For example, a * b returns the product of a and b.
+
+•  / is the division operator. It is used to divide the first operand by the second. For example, a / b returns the quotient of a and b.
+
+•  % is the modulus operator. It is used to find the remainder of the first operand divided by the second. For example, a % b returns the remainder of a and b.
+
+•  ++ is the increment operator. It is used to increase the value of an operand by one. For example, (++a) returns the value of a after adding one to it.
+
+•  -- is the decrement operator. It is used to decrease the value of an operand by one. For example, (--a) returns the value of a after subtracting one from it.
+
+•  -eq is the equality operator. It is used to compare two operands for equality. It returns true if they are equal and false otherwise. For example, [ $a -eq $b ] returns true if a and b have the same value.
+
+•  -ne is the not equal operator. It is used to compare two operands for inequality. It returns true if they are not equal and false otherwise. For example, [ $a -ne $b ] returns true if a and b have different values.
+
+•  -lt is the less than operator. It is used to compare two operands for order. It returns true if the first operand is less than the second and false otherwise. For example, [ $a -lt $b ] returns true if a is smaller than b.
+
+•  -le is the less than or equal operator. It is used to compare two operands for order or equality. It returns true if the first operand is less than or equal to the second and false otherwise. For example, [ $a -le $b ] returns true if a is smaller than or equal to b.
+
+•  -gt is the greater than operator. It is used to compare two operands for order. It returns true if the first operand is greater than the second and false otherwise. For example, [ $a -gt $b ] returns true if a is larger than b.
+
+•  -ge is the greater than or equal operator. It is used to compare two operands for order or equality. It returns true if the first operand is greater than or equal to the second and false otherwise. For example, [ $a -ge $b ] returns true if a is larger than or equal to b.
+
+•  -f is the file test operator. It is used to check if a file exists and is a regular file. It returns true if it does and false otherwise. For example, [ -f file.txt ] returns true if file.txt exists and is a regular file.
+
+•  -d is another file test operator. It is used to check if a file exists and is a directory. It returns true if it does and false otherwise. For example, [ -d dir ] returns true if dir exists and is a directory.
+
